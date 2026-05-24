@@ -1,0 +1,60 @@
+// ============================================================
+// DATABASE SCHEMA (PRISMA) - RDR SCREENING SYSTEM (POSTGRESQL)
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" 
+  url      = env("DATABASE_URL")
+}
+
+// 1. Tabel Pengguna
+model User {
+  id           String      @id @default(uuid())
+  username     String      @unique
+  password     String
+  nama_lengkap String
+  role         Role        @default(DOKTER) 
+  screenings   Screening[]
+  createdAt    DateTime    @default(now())
+}
+
+enum Role {
+  ADMIN
+  DOKTER
+}
+
+// 2. Tabel Pasien 
+model Patient {
+  id            String      @id @default(uuid())
+  kode_pasien   String      @unique 
+  nama_pasien   String
+  umur          Int
+  jenis_kelamin String      
+  screenings    Screening[]
+  createdAt     DateTime    @default(now())
+}
+
+// 3. Tabel Pemeriksaan 
+model Screening {
+  id                    String   @id @default(uuid())
+  patientId             String
+  userId                String   
+  mata                  String   
+  
+  gambar_path           String
+  
+  probability_referable Float
+  predicted_class       Int      
+  predicted_label       String
+  
+  catatan_dokter        String?
+  
+  createdAt             DateTime @default(now())
+
+  patient               Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  petugas               User     @relation(fields: [userId], references: [id])
+}

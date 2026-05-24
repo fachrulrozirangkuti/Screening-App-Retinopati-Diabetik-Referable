@@ -1,0 +1,37 @@
+{"timestamp":"2026-05-21 01:44:58","level":"info","message":"Berhasil masuk ke dalam sistem","user":"admin_utama","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 01:46:09","level":"info","message":"Melakukan skrining untuk pasien 12345678 dengan hasil Referable","user":"admin_utama","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 01:47:25","level":"info","message":"Melakukan skrining untuk pasien 12345678 dengan hasil Referable","user":"admin_utama","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 01:47:54","level":"info","message":"Melakukan skrining untuk pasien 12345678 dengan hasil Non-Referable","user":"admin_utama","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 01:48:54","level":"info","message":"Melakukan skrining untuk pasien 12345678 dengan hasil Referable","user":"admin_utama","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 01:49:31","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Kinan","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 01:50:39","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Dr. Rangkuti","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 02:00:56","level":"info","message":"Mengunggah citra dataset baru: 1779303656510_16_left.jpeg","user":"Dr. Rangkuti","action":"UPLOAD_DATASET"}
+{"timestamp":"2026-05-21 02:01:20","level":"info","message":"Mengunggah citra dataset baru: 1779303680937_10_right.jpeg","user":"Dr. Rangkuti","action":"UPLOAD_DATASET"}
+{"timestamp":"2026-05-21 02:01:40","level":"info","message":"Mengunggah citra dataset baru: 1779303700234_10_left.jpeg","user":"Dr. Rangkuti","action":"UPLOAD_DATASET"}
+{"timestamp":"2026-05-21 02:11:29","level":"info","message":"Menghapus dataset citra: 1779303656510_16_left.jpeg","user":"Dr. Rangkuti","action":"DELETE_DATASET"}
+{"timestamp":"2026-05-21 02:12:15","level":"info","message":"Mengunggah citra dataset baru: 1779304335064_157_left.jpeg","user":"Dr. Rangkuti","action":"UPLOAD_DATASET"}
+{"timestamp":"2026-05-21 02:12:47","level":"info","message":"Mengunggah citra dataset baru: 1779304367114_157_right.jpeg","user":"Dr. Rangkuti","action":"UPLOAD_DATASET"}
+{"timestamp":"2026-05-21 02:44:05","level":"info","message":"Melakukan skrining untuk pasien 0987654321 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 02:45:27","level":"info","message":"Melakukan skrining untuk pasien 0987654321 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 02:47:16","level":"info","message":"Melakukan skrining untuk pasien 123456 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 02:47:20","level":"info","message":"Melakukan skrining untuk pasien 123456 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 02:47:47","level":"info","message":"Melakukan skrining untuk pasien 123456 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 09:20:00","level":"info","message":"Memperbarui profil mandiri","user":"Dr. Rangkuti","action":"UPDATE_PROFILE"}
+{"timestamp":"2026-05-21 09:20:12","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Dr. Rangkuti","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 09:23:10","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Kinan","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 09:23:10","level":"info","message":"Mencoba mengakses rute khusus Admin","user":"Kinan","action":"UNAUTHORIZED_ACCESS"}
+{"timestamp":"2026-05-21 09:23:10","level":"info","message":"Mencoba mengakses rute khusus Admin","user":"Kinan","action":"UNAUTHORIZED_ACCESS"}
+{"timestamp":"2026-05-21 09:23:25","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Dr. Rangkuti","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 09:34:04","level":"info","message":"Melakukan skrining untuk pasien 1111111 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 09:54:20","level":"info","message":"Melakukan skrining untuk pasien 1111111 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 10:06:21","level":"info","message":"Melakukan skrining untuk pasien 1234567890 dengan hasil Non-Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 10:07:16","level":"info","message":"Melakukan skrining untuk pasien 1234567890 dengan hasil Non-Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-21 10:55:17","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Kinan","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-21 10:55:17","level":"info","message":"Mencoba mengakses rute khusus Admin","user":"Kinan","action":"UNAUTHORIZED_ACCESS"}
+{"timestamp":"2026-05-21 10:55:17","level":"info","message":"Mencoba mengakses rute khusus Admin","user":"Kinan","action":"UNAUTHORIZED_ACCESS"}
+{"timestamp":"2026-05-21 10:55:53","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Dr. Rangkuti","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-22 20:38:21","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Kinan","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-22 20:38:57","level":"info","message":"Berhasil masuk ke dalam sistem","user":"Dr. Rangkuti","action":"LOGIN_SUCCESS"}
+{"timestamp":"2026-05-22 22:01:21","level":"info","message":"Melakukan skrining untuk pasien 1234567 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-22 22:02:04","level":"info","message":"Melakukan skrining untuk pasien 1234567 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}
+{"timestamp":"2026-05-22 22:03:57","level":"info","message":"Melakukan skrining untuk pasien 1234567 dengan hasil Referable","user":"Dr. Rangkuti","action":"SCREENING_CREATED"}

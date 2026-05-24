@@ -1,0 +1,6 @@
+{
+    "default_threshold": 0.5,
+    "recommended_threshold": 0.210,
+    "min_sensitivity_target": 0.90,
+    "selection_rule": "Sensitivity >= 0.90, then max F1, specificity, accuracy"
+}

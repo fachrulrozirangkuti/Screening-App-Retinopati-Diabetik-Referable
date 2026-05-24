@@ -1,0 +1,26 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Mengabaikan folder dependency (sangat berat dan tidak perlu di-upload)
+node_modules/
+venv/
+/dist
+/build
+
+# Mengabaikan file konfigurasi lokal dan data sensitif (API Key, Database URL, dll)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mengabaikan log error
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mengabaikan file sistem
+.DS_Store
+Thumbs.db
+
+*.h5
+*.keras

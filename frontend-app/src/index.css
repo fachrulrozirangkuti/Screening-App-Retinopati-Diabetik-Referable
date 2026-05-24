@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8fafc; /* Latar belakang abu-abu sangat muda agar bersih */
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Aturan khusus saat aplikasi masuk ke mode Print (Simpan PDF) */
+@media print {
+  @page {
+    size: A4 portrait; /* Memaksa browser menggunakan ukuran A4 */
+    margin: 10mm; /* Memberi ruang agar kop surat tidak terlalu mepet atas */
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; /* Memaksa browser mencetak warna latar/border dengan tajam */
+  }
+}
